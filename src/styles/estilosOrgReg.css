@@ -1,0 +1,141 @@
+
+.h2RegOrg {
+  text-align: 'center';
+  color:#45a049;
+  padding: auto;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Formulario de registro */
+.registration-containerRegOrg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f7fa;
+  font-family: sans-serif;
+}
+
+.form-containerRegOrg {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 460px; /* Aumenta el ancho máximo del formulario */
+}
+
+.button-container {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.register-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.cancel-button {
+  background-color: #fafafa;
+  color: #4caf50;
+  border: 1.6px solid #61d765;
+}
+.cancel-button:hover {
+  background-color: #e7f8e7;
+}
+
+.register-button {
+  background-color: #4caf50;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .registration-containerRegOrg {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .form-containerRegOrg,
+  .image-container {
+    max-width: 100%;
+  }
+
+  .image-container {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+.entradaDatos1 {
+  display: flex;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  background-color:rgb(229, 245, 240);
+}
+
+label {
+  font-weight:100;
+  display: block;
+  margin-bottom: 10px; /*espacio entre las etiquetas y los inputs */
+}
+
+
+.boton {
+  color:#45a049;
+}
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px; /*padding para mejorar el tamaño */
+  border: none;
+  border-radius: 5px; /*radio de los bordes */
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 650px;
+  height: auto;
+}
+.campoUser {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.custom-checkbox:checked {
+  background-color: #21f228;
+  color:#61d765;
+}
+
+.custom-checkbox input{
+  margin-right: 10px;
+}
+.custom-checkbox{
+  margin-right: 10px;
+}

@@ -1,0 +1,85 @@
+.mainAjustes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  /* height: 100vh; */
+  background: linear-gradient(0deg, rgba(214,184,250,1) 20%, rgba(99,52,168,1) 100%);
+
+}
+
+.tituloAjustes {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ajustesUsuario {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.campos {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.campo {
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 200;
+}
+
+.labelAjustes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.inputAjustes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  appearance: none;
+}
+
+.inputAjustes:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.campoContacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.campoContacto div {
+  display: flex;
+  width: 25%;
+  min-width: 300px;
+  justify-content: center;
+}

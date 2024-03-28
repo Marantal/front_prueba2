@@ -1,0 +1,65 @@
+.contConfirmar {
+  background: linear-gradient(0deg, rgba(214,184,250,1) 20%, rgba(99,52,168,1) 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titCodConf {
+  margin: 0;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cuadroNumero {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.cuadroNumero:focus {
+  outline: none;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.codigoInvalido {
+  color: red;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.botonConfirmar {
+  width: 130px;
+  color: #fff;
+  border: none;
+  background-color: #1FCEFF;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
